@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="header">
+
+        </div>
+        <h1 class="title">To-do list</h1>
+        <div class="move">
+            <button type="button" id="movebutton"><img src="image/Group 74.png"
+                    onmousemove="this.src='image/Group 73 (1).png'" onmouseout="this.src='image/Group 74.png'"></button>
+        </div>
+        <div class="to do">
+            <div class="input">
+                <input type="text" id="source">
+                <button class="delete"><img src="image/Group 77.png" alt="" onmousemove="this.src='image/Group 70.png'"
+                        onmouseout="this.src='image/Group 77.png'"></button>
+            </div>
+        </div>
+        <div class="line">
+            <ul id="speclist">
+
+            </ul>
+        </div>
+        <div class="create">
+            <button id="createbutton"><img src="image/Group 41.png" alt=""> </button>
+        </div>
+
+    </div>
+    <div id="result"></div>
+    <script src="sc.js"></script>
+
+</body>
+
+</html>
